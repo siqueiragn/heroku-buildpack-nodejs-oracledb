@@ -14,10 +14,10 @@ ORACLE_DIR=$VENDOR_DIR/oracle
 INSTANTCLIENT_DIR=$ORACLE_DIR/instantclient_12_1
 PROFILE_D_DIR=$BUILD_DIR/.profile.d
 
-BASIC_FILENAME=instantclient-basic-linux.x64-12.1.0.2.0.zip
-SDK_FILENAME=instantclient-sdk-linux.x64-12.1.0.2.0.zip
+BASIC_FILENAME=instantclient-basic-linux.x64-19.3.0.0.0dbru.zip
+SDK_FILENAME=instantclient-sdk-linux.x64-19.3.0.0.0dbru.zip
 
-MIRROR=http://michaelbuhler.com
+MIRROR=https://download.oracle.com/otn_software/linux/instantclient/193000/
 
 if [ ! -f $CACHE_DIR/$BASIC_FILENAME ]; then
     indent "Downloading $BASIC_FILENAME..."
