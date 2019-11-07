@@ -45,7 +45,6 @@ indent "Installing oracledb from npm..."
 cd $BUILD_DIR
 THIS_DIR=`pwd`
  
-npm i oracledb
 cd $THIS_DIR
 
 indent "Saving environment setup script..."
