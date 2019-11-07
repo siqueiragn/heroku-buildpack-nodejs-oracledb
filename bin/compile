@@ -44,9 +44,8 @@ export OCI_INC_DIR=$INSTANTCLIENT_DIR/sdk/include
 indent "Installing oracledb from npm..."
 cd $BUILD_DIR
 THIS_DIR=`pwd`
-apt-get install npm
-apt update
-npm install oracledb
+ 
+npm i oracledb
 cd $THIS_DIR
 
 indent "Saving environment setup script..."
